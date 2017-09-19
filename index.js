@@ -1,6 +1,7 @@
 var katzDeli = [];
 function takeANumber(katzDeliLine,customer_name){
   katzDeliLine.push(customer_name);
+  return "Welcome, "+katzDeli[0]+". You are number 1 in line";
 }
 
 function nowServing(katzDeliLine){
