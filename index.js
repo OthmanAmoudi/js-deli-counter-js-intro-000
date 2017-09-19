@@ -1,7 +1,7 @@
 var katzDeli = ["ADA"];
 function takeANumber(katzDeliLine,customer_name){
   katzDeliLine.push(customer_name);
-  return "Welcome, "+katzDeli[0]+". You are number "+ (katzDeliLine.indexOf(0)+1)+" in line";
+  return "Welcome, "+katzDeli[0]+". You are number "+ (katzDeliLine.indexOf(katzDeli[0]) + 1)+" in line";
 }
 
 function nowServing(katzDeliLine){
